@@ -29,7 +29,7 @@ export const Philosophy: React.FC = () => {
         </span>
 
         <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal leading-[1.2] text-white mb-8 tracking-tight">
-          “Acompañamos tu <span className="italic font-normal">evolución personal</span>.”
+          “Planificamos el presente, <span className="italic font-normal">acompañamos tu futuro</span>.”
         </h2>
 
         <p className="text-lg sm:text-xl md:text-2xl text-white/80 font-light leading-relaxed max-w-2xl mx-auto">
