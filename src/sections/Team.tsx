@@ -9,7 +9,7 @@ export const Team: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         {/* Section Header */}
         <div className="max-w-3xl mb-16 sm:mb-20">
-          <span className="text-xs sm:text-sm font-semibold tracking-[0.24em] text-[#063B68] uppercase block mb-4">
+          <span className="text-xs sm:text-sm font-semibold tracking-[0.24em] text-[#103B5E] uppercase block mb-4">
             Capital Humano
           </span>
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-normal leading-[1.2] text-[#15202B] tracking-tight mb-6">
@@ -26,7 +26,7 @@ export const Team: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
             {/* Elegant Monogram / Portrait Container prepared for real photography */}
             <div className="md:col-span-4 lg:col-span-3">
-              <div className="aspect-4/5 w-full max-w-[240px] bg-[#063B68] text-white flex flex-col items-center justify-center p-6 relative overflow-hidden rounded-xs border border-[#042644]">
+              <div className="aspect-4/5 w-full max-w-[240px] bg-[#103B5E] text-white flex flex-col items-center justify-center p-6 relative overflow-hidden rounded-xs border border-[#0b2b45]">
                 {/* Visual subtle dot motif */}
                 <div
                   className="absolute inset-0 opacity-15 pointer-events-none"
@@ -47,13 +47,13 @@ export const Team: React.FC = () => {
             {/* Director Details */}
             <div className="md:col-span-8 lg:col-span-9 space-y-4">
               <div>
-                <span className="text-xs uppercase tracking-widest text-[#063B68] font-bold block mb-1">
+                <span className="text-xs uppercase tracking-widest text-[#103B5E] font-bold block mb-1">
                   Director
                 </span>
                 <h3 className="font-serif text-2xl sm:text-3xl lg:text-4xl text-[#15202B] font-normal">
                   {director.name}
                 </h3>
-                <p className="text-sm sm:text-base font-medium text-[#063B68] mt-1">
+                <p className="text-sm sm:text-base font-medium text-[#103B5E] mt-1">
                   {director.experience}
                 </p>
               </div>
@@ -70,7 +70,7 @@ export const Team: React.FC = () => {
         {/* Coordinators Grid */}
         <div className="mb-20">
           <div className="mb-8">
-            <span className="text-xs uppercase tracking-widest font-semibold text-[#063B68]">
+            <span className="text-xs uppercase tracking-widest font-semibold text-[#103B5E]">
               Coordinación
             </span>
           </div>
@@ -79,10 +79,10 @@ export const Team: React.FC = () => {
             {coordinators.map((coordinator, idx) => (
               <div
                 key={idx}
-                className="bg-white border border-slate-200/80 rounded-xs p-6 flex flex-col items-start transition-all duration-300 hover:border-[#063B68]/40 hover:-translate-y-0.5"
+                className="bg-white border border-slate-200/80 rounded-xs p-6 flex flex-col items-start transition-all duration-300 hover:border-[#103B5E]/40 hover:-translate-y-0.5"
               >
                 {/* Monogram Placeholder */}
-                <div className="w-14 h-14 bg-slate-100 border border-slate-200 text-[#063B68] rounded-xs flex items-center justify-center font-serif text-lg font-medium mb-4">
+                <div className="w-14 h-14 bg-slate-100 border border-slate-200 text-[#103B5E] rounded-xs flex items-center justify-center font-serif text-lg font-medium mb-4">
                   {coordinator.initials}
                 </div>
                 <h4 className="text-base font-semibold text-[#15202B] leading-snug">
@@ -99,8 +99,8 @@ export const Team: React.FC = () => {
         {/* 50+ Consultants Callout (Typographic statement) */}
         <div className="border-t border-slate-300/80 pt-12 text-center sm:text-left flex flex-col sm:flex-row items-center justify-between gap-6">
           <div>
-            <p className="font-serif text-2xl sm:text-3xl text-[#063B68] font-light">
-              Más de {consultantsCount} consultores forman parte de Evolution Investment Life.
+            <p className="font-serif text-2xl sm:text-3xl text-[#103B5E] font-light">
+              Más de {consultantsCount} consultores forman parte de everlife.
             </p>
             <p className="text-sm sm:text-base text-[#687481] font-light mt-1">
               Una red sólida de profesionales comprometidos con la evolución y tranquilidad de cada cliente.

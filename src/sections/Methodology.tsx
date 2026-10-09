@@ -14,14 +14,14 @@ export const Methodology: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         {/* Section Header */}
         <div className="max-w-3xl mb-16 sm:mb-20">
-          <span className="text-xs sm:text-sm font-semibold tracking-[0.24em] text-[#063B68] uppercase block mb-4">
+          <span className="text-xs sm:text-sm font-semibold tracking-[0.24em] text-[#103B5E] uppercase block mb-4">
             Nuestra Forma de Trabajar
           </span>
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-normal leading-[1.2] text-[#15202B] tracking-tight mb-6">
             “Cada persona atraviesa momentos distintos. Su planificación también debería hacerlo.”
           </h2>
           <p className="text-base sm:text-lg text-[#687481] font-light leading-relaxed">
-            En Evolution no creemos en fórmulas estandarizadas. Nuestro método se fundamenta en un
+            En everlife no creemos en fórmulas estandarizadas. Nuestro método se fundamenta en un
             análisis exhaustivo y personalizado que permite estructurar soluciones acordes al momento exacto
             en que te encontrás.
           </p>
@@ -32,11 +32,11 @@ export const Methodology: React.FC = () => {
           {criteria.map((item, idx) => (
             <div
               key={idx}
-              className="bg-white p-7 border border-slate-200/70 rounded-xs shadow-2xs hover:border-[#063B68]/40 transition-colors"
+              className="bg-white p-7 border border-slate-200/70 rounded-xs shadow-2xs hover:border-[#103B5E]/40 transition-colors"
             >
               <div className="flex items-center gap-2 mb-3">
-                <span className="w-1.5 h-1.5 rounded-full bg-[#063B68]" />
-                <span className="text-xs uppercase tracking-widest text-[#063B68] font-semibold">
+                <span className="w-1.5 h-1.5 rounded-full bg-[#103B5E]" />
+                <span className="text-xs uppercase tracking-widest text-[#103B5E] font-semibold">
                   Eje {idx + 1}
                 </span>
               </div>
@@ -63,14 +63,14 @@ export const Methodology: React.FC = () => {
                 <div key={idx} className="flex flex-col relative group">
                   {/* Step indicator node with dot matrix motif */}
                   <div className="flex items-center gap-3 mb-5">
-                    <div className="w-14 h-14 rounded-xs bg-[#063B68] text-white flex items-center justify-center font-serif text-lg font-light shadow-xs">
+                    <div className="w-14 h-14 rounded-xs bg-[#103B5E] text-white flex items-center justify-center font-serif text-lg font-light shadow-xs">
                       {step.number}
                     </div>
                     {/* Visual dot connector for mobile / tablets */}
                     <div className="lg:hidden flex-1 h-px bg-slate-200" />
                   </div>
 
-                  <h3 className="text-lg font-semibold tracking-wider text-[#063B68] uppercase mb-2">
+                  <h3 className="text-lg font-semibold tracking-wider text-[#103B5E] uppercase mb-2">
                     {step.name}
                   </h3>
                   <p className="text-sm text-[#687481] font-light leading-relaxed">
@@ -79,9 +79,9 @@ export const Methodology: React.FC = () => {
 
                   {/* Subtle brand dots on hover */}
                   <div className="mt-4 flex gap-1 opacity-40 group-hover:opacity-100 transition-opacity">
-                    <span className="w-1 h-1 rounded-full bg-[#063B68]" />
-                    <span className="w-1 h-1 rounded-full bg-[#063B68]" />
-                    <span className="w-1 h-1 rounded-full bg-[#063B68]" />
+                    <span className="w-1 h-1 rounded-full bg-[#103B5E]" />
+                    <span className="w-1 h-1 rounded-full bg-[#103B5E]" />
+                    <span className="w-1 h-1 rounded-full bg-[#103B5E]" />
                   </div>
                 </div>
               ))}

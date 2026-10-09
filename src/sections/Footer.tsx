@@ -14,7 +14,7 @@ export const Footer: React.FC = () => {
   };
 
   return (
-    <footer className="bg-[#042644] text-white py-16 sm:py-20 border-t border-[#08355c]">
+    <footer className="bg-[#0b2b45] text-white py-16 sm:py-20 border-t border-[#164361]">
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-start pb-16 border-b border-white/10">
           {/* Logo & Philosophy */}
@@ -26,9 +26,9 @@ export const Footer: React.FC = () => {
                 window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
               className="inline-block focus:outline-hidden"
-              aria-label="Evolution Investment Life - Subir al inicio"
+              aria-label="everlife - Subir al inicio"
             >
-              <Logo variant="white" className="h-12 w-auto" />
+              <Logo variant="white" className="h-24 w-auto" />
             </a>
             <p className="text-sm text-white/70 font-light max-w-sm leading-relaxed">
               Acompañamos tu evolución personal y patrimonial con soluciones integrales
@@ -110,7 +110,7 @@ export const Footer: React.FC = () => {
             {siteConfig.disclaimer}
           </p>
           <div className="shrink-0">
-            <p>© {currentYear} Evolution Investment Life. Todos los derechos reservados.</p>
+            <p>© {currentYear} everlife. Todos los derechos reservados.</p>
           </div>
         </div>
       </div>

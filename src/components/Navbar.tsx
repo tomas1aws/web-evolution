@@ -66,11 +66,11 @@ export const Navbar: React.FC<NavbarProps> = () => {
               window.scrollTo({ top: 0, behavior: 'smooth' });
             }}
             className="flex items-center group focus:outline-hidden focus:ring-2 focus:ring-blue-400 rounded-sm"
-            aria-label="Evolution Investment Life - Inicio"
+            aria-label="everlife - Inicio"
           >
             <Logo
               variant={isScrolled ? 'blue' : 'white'}
-              className="h-10 sm:h-12 w-auto transition-transform duration-300 group-hover:opacity-90"
+              className="h-16 sm:h-20 w-auto transition-transform duration-300 group-hover:opacity-90"
             />
           </a>
 
@@ -83,7 +83,7 @@ export const Navbar: React.FC<NavbarProps> = () => {
                 onClick={(e) => handleLinkClick(e, link.href)}
                 className={`text-[14px] font-medium tracking-wide transition-colors duration-200 focus:outline-hidden focus:ring-2 focus:ring-blue-400 rounded-xs py-1 ${
                   isScrolled
-                    ? 'text-[#15202B] hover:text-[#063B68]'
+                    ? 'text-[#15202B] hover:text-[#103B5E]'
                     : 'text-white/85 hover:text-white'
                 }`}
               >
@@ -97,8 +97,8 @@ export const Navbar: React.FC<NavbarProps> = () => {
               onClick={(e) => handleLinkClick(e, '#contacto')}
               className={`inline-flex items-center text-[13.5px] font-semibold tracking-wider uppercase px-5 py-2.5 transition-all duration-300 focus:outline-hidden focus:ring-2 focus:ring-offset-2 ${
                 isScrolled
-                  ? 'bg-[#063B68] text-white hover:bg-[#042644] rounded-sm'
-                  : 'bg-white/10 text-white border border-white/30 hover:bg-white hover:text-[#063B68] rounded-sm'
+                  ? 'bg-[#103B5E] text-white hover:bg-[#0b2b45] rounded-sm'
+                  : 'bg-white/10 text-white border border-white/30 hover:bg-white hover:text-[#103B5E] rounded-sm'
               }`}
             >
               Contactanos
@@ -111,7 +111,7 @@ export const Navbar: React.FC<NavbarProps> = () => {
               type="button"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className={`p-2 rounded-sm transition-colors focus:outline-hidden focus:ring-2 focus:ring-blue-400 ${
-                isScrolled ? 'text-[#063B68] hover:bg-slate-100' : 'text-white hover:bg-white/10'
+                isScrolled ? 'text-[#103B5E] hover:bg-slate-100' : 'text-white hover:bg-white/10'
               }`}
               aria-expanded={mobileMenuOpen}
               aria-label={mobileMenuOpen ? 'Cerrar menú' : 'Abrir menú'}
@@ -124,7 +124,7 @@ export const Navbar: React.FC<NavbarProps> = () => {
 
       {/* Mobile Drawer Menu */}
       <div
-        className={`fixed inset-0 z-40 bg-[#063B68] text-white transition-all duration-400 md:hidden flex flex-col justify-between p-8 pt-28 ${
+        className={`fixed inset-0 z-40 bg-[#103B5E] text-white transition-all duration-400 md:hidden flex flex-col justify-between p-8 pt-28 ${
           mobileMenuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
         }`}
         aria-hidden={!mobileMenuOpen}
@@ -152,7 +152,7 @@ export const Navbar: React.FC<NavbarProps> = () => {
           <a
             href="#contacto"
             onClick={(e) => handleLinkClick(e, '#contacto')}
-            className="block text-center w-full py-3.5 px-6 bg-white text-[#063B68] font-semibold text-sm tracking-wider uppercase rounded-sm hover:bg-white/90 transition-colors"
+            className="block text-center w-full py-3.5 px-6 bg-white text-[#103B5E] font-semibold text-sm tracking-wider uppercase rounded-sm hover:bg-white/90 transition-colors"
           >
             Contactanos
           </a>

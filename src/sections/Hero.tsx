@@ -13,11 +13,11 @@ export const Hero: React.FC = () => {
   return (
     <section
       id="hero"
-      className="relative min-h-[90vh] md:min-h-screen flex flex-col justify-between bg-[#063B68] text-white overflow-hidden pt-32 pb-16 px-6 sm:px-8 lg:px-12"
+      className="relative min-h-[90vh] md:min-h-screen flex flex-col justify-between bg-[#103B5E] text-white overflow-hidden pt-32 pb-16 px-6 sm:px-8 lg:px-12"
       style={{
-        background: 'radial-gradient(ellipse at 50% 25%, #084c85 0%, #063B68 55%, #042644 100%)',
+        background: 'radial-gradient(ellipse at 50% 25%, #215477 0%, #103B5E 55%, #0b2b45 100%)',
       }}
-      aria-label="Introducción Evolution Investment Life"
+      aria-label="Introducción everlife"
     >
       {/* Abstract Living Dot-Wave Canvas */}
       <DotWaveCanvas
@@ -41,7 +41,7 @@ export const Hero: React.FC = () => {
         {/* Brand Eyebrow */}
         <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 border border-white/15 text-white/80 text-[12px] sm:text-[13px] font-semibold tracking-[0.22em] uppercase mb-8">
           <span className="w-1.5 h-1.5 rounded-full bg-white/70" />
-          <span>Evolution Investment Life</span>
+          <span>everlife</span>
         </div>
 
         {/* Hero Title */}
@@ -60,7 +60,7 @@ export const Hero: React.FC = () => {
           <button
             type="button"
             onClick={() => scrollTo('soluciones')}
-            className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-8 py-4 bg-white text-[#063B68] text-sm font-semibold tracking-wider uppercase rounded-sm hover:bg-slate-100 transition-all duration-300 shadow-sm group focus:outline-hidden focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#063B68] cursor-pointer"
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-8 py-4 bg-white text-[#103B5E] text-sm font-semibold tracking-wider uppercase rounded-sm hover:bg-slate-100 transition-all duration-300 shadow-sm group focus:outline-hidden focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#103B5E] cursor-pointer"
           >
             <span>Conocé cómo podemos acompañarte</span>
             <ChevronRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5" />
@@ -69,7 +69,7 @@ export const Hero: React.FC = () => {
           <button
             type="button"
             onClick={() => scrollTo('equipo')}
-            className="w-full sm:w-auto inline-flex items-center justify-center px-7 py-4 text-white text-sm font-semibold tracking-wider uppercase rounded-sm border border-white/30 hover:bg-white/10 hover:border-white/60 transition-all duration-300 focus:outline-hidden focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#063B68] cursor-pointer"
+            className="w-full sm:w-auto inline-flex items-center justify-center px-7 py-4 text-white text-sm font-semibold tracking-wider uppercase rounded-sm border border-white/30 hover:bg-white/10 hover:border-white/60 transition-all duration-300 focus:outline-hidden focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#103B5E] cursor-pointer"
           >
             Conocé nuestro equipo
           </button>

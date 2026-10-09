@@ -5,9 +5,9 @@ export const Philosophy: React.FC = () => {
   return (
     <section
       id="filosofia"
-      className="relative bg-[#063B68] text-white py-28 sm:py-36 lg:py-44 overflow-hidden"
+      className="relative bg-[#103B5E] text-white py-28 sm:py-36 lg:py-44 overflow-hidden"
       style={{
-        background: 'radial-gradient(ellipse at 50% 50%, #07477c 0%, #063B68 70%, #042542 100%)',
+        background: 'radial-gradient(ellipse at 50% 50%, #215477 0%, #103B5E 70%, #0b2b45 100%)',
       }}
       aria-label="Filosofía institucional"
     >

@@ -7,7 +7,7 @@ export const About: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         {/* Editorial Eyebrow & Title */}
         <div className="max-w-3xl mb-16 sm:mb-24">
-          <span className="text-xs sm:text-sm font-semibold tracking-[0.24em] text-[#063B68] uppercase block mb-4">
+          <span className="text-xs sm:text-sm font-semibold tracking-[0.24em] text-[#103B5E] uppercase block mb-4">
             Nosotros
           </span>
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-normal leading-[1.2] text-[#15202B] tracking-tight">
@@ -36,7 +36,7 @@ export const About: React.FC = () => {
 
           <div className="lg:col-span-5 lg:pl-6 border-l border-slate-200/80">
             <div className="space-y-6">
-              <span className="text-xs uppercase tracking-widest font-semibold text-[#063B68]">
+              <span className="text-xs uppercase tracking-widest font-semibold text-[#103B5E]">
                 Enfoque Consultivo
               </span>
               <p className="text-sm sm:text-base text-[#687481] leading-relaxed">
@@ -56,7 +56,7 @@ export const About: React.FC = () => {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 sm:gap-8 lg:gap-12">
             {/* Stat 1 */}
             <div className="flex flex-col">
-              <span className="font-serif text-5xl sm:text-6xl lg:text-7xl font-light text-[#063B68] leading-none mb-3">
+              <span className="font-serif text-5xl sm:text-6xl lg:text-7xl font-light text-[#103B5E] leading-none mb-3">
                 23
               </span>
               <span className="text-xs uppercase tracking-widest text-[#15202B] font-semibold mb-1">
@@ -69,7 +69,7 @@ export const About: React.FC = () => {
 
             {/* Stat 2 */}
             <div className="flex flex-col">
-              <span className="font-serif text-5xl sm:text-6xl lg:text-7xl font-light text-[#063B68] leading-none mb-3">
+              <span className="font-serif text-5xl sm:text-6xl lg:text-7xl font-light text-[#103B5E] leading-none mb-3">
                 +50
               </span>
               <span className="text-xs uppercase tracking-widest text-[#15202B] font-semibold mb-1">
@@ -82,7 +82,7 @@ export const About: React.FC = () => {
 
             {/* Stat 3 */}
             <div className="flex flex-col">
-              <span className="font-serif text-5xl sm:text-6xl lg:text-7xl font-light text-[#063B68] leading-none mb-3">
+              <span className="font-serif text-5xl sm:text-6xl lg:text-7xl font-light text-[#103B5E] leading-none mb-3">
                 360°
               </span>
               <span className="text-xs uppercase tracking-widest text-[#15202B] font-semibold mb-1">

@@ -12,7 +12,7 @@ export const FinalCTA: React.FC = () => {
   return (
     <section className="relative bg-white py-24 sm:py-32 border-t border-slate-200 text-[#15202B] overflow-hidden">
       <div className="max-w-4xl mx-auto px-6 sm:px-8 text-center relative z-10">
-        <span className="text-xs uppercase tracking-[0.26em] text-[#063B68] font-semibold block mb-4">
+        <span className="text-xs uppercase tracking-[0.26em] text-[#103B5E] font-semibold block mb-4">
           Comenzar la Planificación
         </span>
 
@@ -28,7 +28,7 @@ export const FinalCTA: React.FC = () => {
           <button
             type="button"
             onClick={() => scrollTo('contacto')}
-            className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-8 py-4 bg-[#063B68] text-white text-xs sm:text-sm font-semibold tracking-wider uppercase rounded-xs hover:bg-[#042644] transition-colors shadow-xs group cursor-pointer focus:outline-hidden focus:ring-2 focus:ring-[#063B68] focus:ring-offset-2"
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-8 py-4 bg-[#103B5E] text-white text-xs sm:text-sm font-semibold tracking-wider uppercase rounded-xs hover:bg-[#0b2b45] transition-colors shadow-xs group cursor-pointer focus:outline-hidden focus:ring-2 focus:ring-[#103B5E] focus:ring-offset-2"
           >
             <span>Contactanos</span>
             <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5" />
@@ -37,7 +37,7 @@ export const FinalCTA: React.FC = () => {
           <button
             type="button"
             onClick={() => scrollTo('equipo')}
-            className="w-full sm:w-auto inline-flex items-center justify-center px-7 py-4 text-[#063B68] text-xs sm:text-sm font-semibold tracking-wider uppercase rounded-xs border border-slate-300 hover:border-[#063B68] hover:bg-slate-50 transition-colors cursor-pointer focus:outline-hidden focus:ring-2 focus:ring-[#063B68] focus:ring-offset-2"
+            className="w-full sm:w-auto inline-flex items-center justify-center px-7 py-4 text-[#103B5E] text-xs sm:text-sm font-semibold tracking-wider uppercase rounded-xs border border-slate-300 hover:border-[#103B5E] hover:bg-slate-50 transition-colors cursor-pointer focus:outline-hidden focus:ring-2 focus:ring-[#103B5E] focus:ring-offset-2"
           >
             Conocé al equipo
           </button>
