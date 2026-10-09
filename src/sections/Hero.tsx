@@ -46,7 +46,7 @@ export const Hero: React.FC = () => {
 
         {/* Hero Title */}
         <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-normal tracking-tight leading-[1.12] text-white max-w-4xl mb-7">
-          Acompañamos <span className="italic font-normal">tu evolución</span>.
+          Evolución <span className="italic font-normal">permanente</span>.
         </h1>
 
         {/* Hero Subtitle */}
