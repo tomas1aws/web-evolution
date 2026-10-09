@@ -1,12 +1,12 @@
 import { SiteConfig, Solution } from '../types';
 
 /**
- * Central Configuration for Evolution Investment Life
+ * Central Configuration for everlife
  * Easily customize contact info, links, team members, and copy.
  */
 export const siteConfig: SiteConfig = {
   company: {
-    name: 'Evolution Investment Life',
+    name: 'everlife',
     tagline: 'Acompañamos tu evolución.',
     subtagline: 'Planificamos junto a vos cada etapa de tu vida, combinando experiencia, asesoramiento personalizado y soluciones en seguros e inversiones.',
     philosophyQuote: 'Acompañamos tu evolución personal.',
