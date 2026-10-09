@@ -21,7 +21,7 @@ export const Solutions: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         {/* Section Header */}
         <div className="max-w-3xl mb-16 sm:mb-20">
-          <span className="text-xs sm:text-sm font-semibold tracking-[0.24em] text-[#063B68] uppercase block mb-4">
+          <span className="text-xs sm:text-sm font-semibold tracking-[0.24em] text-[#103B5E] uppercase block mb-4">
             Herramientas y Coberturas
           </span>
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-normal leading-[1.2] text-[#15202B] tracking-tight mb-6">
@@ -53,11 +53,11 @@ export const Solutions: React.FC = () => {
                   className="w-full text-left py-8 sm:py-10 px-4 sm:px-6 flex flex-col md:flex-row md:items-center justify-between gap-6 cursor-pointer focus:outline-hidden focus:bg-slate-100/70"
                 >
                   <div className="flex items-start md:items-center gap-6 sm:gap-10">
-                    <span className="text-sm sm:text-base font-mono font-light text-[#063B68] tracking-widest pt-1 md:pt-0">
+                    <span className="text-sm sm:text-base font-mono font-light text-[#103B5E] tracking-widest pt-1 md:pt-0">
                       /{indexStr}
                     </span>
                     <div>
-                      <h3 className="text-xl sm:text-2xl lg:text-3xl font-normal font-serif text-[#15202B] group-hover:text-[#063B68] transition-colors">
+                      <h3 className="text-xl sm:text-2xl lg:text-3xl font-normal font-serif text-[#15202B] group-hover:text-[#103B5E] transition-colors">
                         {item.title}
                       </h3>
                       <p className="text-sm sm:text-base text-[#687481] font-light mt-1">
@@ -67,14 +67,14 @@ export const Solutions: React.FC = () => {
                   </div>
 
                   <div className="flex items-center gap-4 self-end md:self-center">
-                    <span className="text-xs uppercase tracking-widest text-[#063B68] font-medium hidden sm:inline-block">
+                    <span className="text-xs uppercase tracking-widest text-[#103B5E] font-medium hidden sm:inline-block">
                       {isExpanded ? 'Ocultar detalle' : 'Ver detalle'}
                     </span>
                     <div
                       className={`w-9 h-9 rounded-full flex items-center justify-center transition-transform duration-300 border ${
                         isExpanded
-                          ? 'bg-[#063B68] text-white border-[#063B68]'
-                          : 'border-slate-300 text-[#063B68] bg-white'
+                          ? 'bg-[#103B5E] text-white border-[#103B5E]'
+                          : 'border-slate-300 text-[#103B5E] bg-white'
                       }`}
                     >
                       {isExpanded ? <Minus className="w-4 h-4" /> : <Plus className="w-4 h-4" />}
@@ -94,7 +94,7 @@ export const Solutions: React.FC = () => {
                           <span className="text-xs uppercase tracking-wider text-[#687481] block mb-1 font-medium">
                             Destinado a:
                           </span>
-                          <p className="text-sm text-[#063B68] font-medium">{item.forWhom}</p>
+                          <p className="text-sm text-[#103B5E] font-medium">{item.forWhom}</p>
                         </div>
                       </div>
 
@@ -105,7 +105,7 @@ export const Solutions: React.FC = () => {
                         <ul className="space-y-2.5">
                           {item.features.map((feat, fIdx) => (
                             <li key={fIdx} className="flex items-start gap-3 text-sm text-[#15202B] font-light">
-                              <span className="w-1.5 h-1.5 rounded-full bg-[#063B68] mt-2 shrink-0" />
+                              <span className="w-1.5 h-1.5 rounded-full bg-[#103B5E] mt-2 shrink-0" />
                               <span>{feat}</span>
                             </li>
                           ))}
@@ -115,7 +115,7 @@ export const Solutions: React.FC = () => {
                           <button
                             type="button"
                             onClick={scrollToContact}
-                            className="inline-flex items-center gap-2 text-xs uppercase tracking-widest font-semibold text-[#063B68] hover:text-[#042644] transition-colors group cursor-pointer"
+                            className="inline-flex items-center gap-2 text-xs uppercase tracking-widest font-semibold text-[#103B5E] hover:text-[#0b2b45] transition-colors group cursor-pointer"
                           >
                             <span>Consultar sobre {item.title}</span>
                             <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-1" />

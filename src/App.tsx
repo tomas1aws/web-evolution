@@ -13,7 +13,7 @@ import { Footer } from './sections/Footer';
 
 export default function App() {
   return (
-    <div className="min-h-screen flex flex-col bg-white text-[#15202B] selection:bg-[#063B68] selection:text-white font-sans">
+    <div className="min-h-screen flex flex-col bg-white text-[#15202B] selection:bg-[#103B5E] selection:text-white font-sans">
       {/* Header Navigation */}
       <Navbar />
 

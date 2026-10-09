@@ -55,7 +55,7 @@ export const Contact: React.FC = () => {
           {/* Left Column: Context & Contact Channels */}
           <div className="lg:col-span-5 space-y-8">
             <div>
-              <span className="text-xs sm:text-sm font-semibold tracking-[0.24em] text-[#063B68] uppercase block mb-4">
+              <span className="text-xs sm:text-sm font-semibold tracking-[0.24em] text-[#103B5E] uppercase block mb-4">
                 Contacto
               </span>
               <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-normal leading-[1.2] text-[#15202B] tracking-tight mb-4">
@@ -75,9 +75,9 @@ export const Contact: React.FC = () => {
                   href={`https://wa.me/${contact.whatsapp}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-4 p-4 bg-white border border-slate-200/80 rounded-xs hover:border-[#063B68]/40 transition-colors group"
+                  className="flex items-center gap-4 p-4 bg-white border border-slate-200/80 rounded-xs hover:border-[#103B5E]/40 transition-colors group"
                 >
-                  <div className="w-10 h-10 rounded-xs bg-[#063B68]/5 text-[#063B68] flex items-center justify-center group-hover:bg-[#063B68] group-hover:text-white transition-colors">
+                  <div className="w-10 h-10 rounded-xs bg-[#103B5E]/5 text-[#103B5E] flex items-center justify-center group-hover:bg-[#103B5E] group-hover:text-white transition-colors">
                     <MessageSquare className="w-5 h-5" />
                   </div>
                   <div>
@@ -95,9 +95,9 @@ export const Contact: React.FC = () => {
               {contact.email && (
                 <a
                   href={`mailto:${contact.email}`}
-                  className="flex items-center gap-4 p-4 bg-white border border-slate-200/80 rounded-xs hover:border-[#063B68]/40 transition-colors group"
+                  className="flex items-center gap-4 p-4 bg-white border border-slate-200/80 rounded-xs hover:border-[#103B5E]/40 transition-colors group"
                 >
-                  <div className="w-10 h-10 rounded-xs bg-[#063B68]/5 text-[#063B68] flex items-center justify-center group-hover:bg-[#063B68] group-hover:text-white transition-colors">
+                  <div className="w-10 h-10 rounded-xs bg-[#103B5E]/5 text-[#103B5E] flex items-center justify-center group-hover:bg-[#103B5E] group-hover:text-white transition-colors">
                     <Mail className="w-5 h-5" />
                   </div>
                   <div>
@@ -115,9 +115,9 @@ export const Contact: React.FC = () => {
               {contact.phone && (
                 <a
                   href={`tel:${contact.phone}`}
-                  className="flex items-center gap-4 p-4 bg-white border border-slate-200/80 rounded-xs hover:border-[#063B68]/40 transition-colors group"
+                  className="flex items-center gap-4 p-4 bg-white border border-slate-200/80 rounded-xs hover:border-[#103B5E]/40 transition-colors group"
                 >
-                  <div className="w-10 h-10 rounded-xs bg-[#063B68]/5 text-[#063B68] flex items-center justify-center group-hover:bg-[#063B68] group-hover:text-white transition-colors">
+                  <div className="w-10 h-10 rounded-xs bg-[#103B5E]/5 text-[#103B5E] flex items-center justify-center group-hover:bg-[#103B5E] group-hover:text-white transition-colors">
                     <Phone className="w-5 h-5" />
                   </div>
                   <div>
@@ -143,8 +143,8 @@ export const Contact: React.FC = () => {
                     href={contact.instagram}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="p-3 bg-white border border-slate-200 text-[#063B68] rounded-xs hover:border-[#063B68] hover:text-[#042644] transition-colors focus:outline-hidden"
-                    aria-label="Instagram de Evolution Investment Life"
+                    className="p-3 bg-white border border-slate-200 text-[#103B5E] rounded-xs hover:border-[#103B5E] hover:text-[#0b2b45] transition-colors focus:outline-hidden"
+                    aria-label="Instagram de everlife"
                   >
                     <Instagram className="w-5 h-5" />
                   </a>
@@ -154,8 +154,8 @@ export const Contact: React.FC = () => {
                     href={contact.linkedin}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="p-3 bg-white border border-slate-200 text-[#063B68] rounded-xs hover:border-[#063B68] hover:text-[#042644] transition-colors focus:outline-hidden"
-                    aria-label="LinkedIn de Evolution Investment Life"
+                    className="p-3 bg-white border border-slate-200 text-[#103B5E] rounded-xs hover:border-[#103B5E] hover:text-[#0b2b45] transition-colors focus:outline-hidden"
+                    aria-label="LinkedIn de everlife"
                   >
                     <Linkedin className="w-5 h-5" />
                   </a>
@@ -183,7 +183,7 @@ export const Contact: React.FC = () => {
                     <button
                       type="button"
                       onClick={() => setIsSubmitted(false)}
-                      className="text-xs uppercase tracking-widest font-semibold text-[#063B68] hover:text-[#042644] transition-colors underline cursor-pointer"
+                      className="text-xs uppercase tracking-widest font-semibold text-[#103B5E] hover:text-[#0b2b45] transition-colors underline cursor-pointer"
                     >
                       Enviar otra consulta
                     </button>
@@ -205,7 +205,7 @@ export const Contact: React.FC = () => {
                         value={formData.firstName}
                         onChange={handleChange}
                         placeholder="Ej. Martín"
-                        className="w-full px-4 py-3.5 bg-slate-50/60 border border-slate-200 rounded-xs text-sm text-[#15202B] focus:outline-hidden focus:border-[#063B68] focus:bg-white transition-colors"
+                        className="w-full px-4 py-3.5 bg-slate-50/60 border border-slate-200 rounded-xs text-sm text-[#15202B] focus:outline-hidden focus:border-[#103B5E] focus:bg-white transition-colors"
                       />
                     </div>
 
@@ -221,7 +221,7 @@ export const Contact: React.FC = () => {
                         value={formData.lastName}
                         onChange={handleChange}
                         placeholder="Ej. González"
-                        className="w-full px-4 py-3.5 bg-slate-50/60 border border-slate-200 rounded-xs text-sm text-[#15202B] focus:outline-hidden focus:border-[#063B68] focus:bg-white transition-colors"
+                        className="w-full px-4 py-3.5 bg-slate-50/60 border border-slate-200 rounded-xs text-sm text-[#15202B] focus:outline-hidden focus:border-[#103B5E] focus:bg-white transition-colors"
                       />
                     </div>
                   </div>
@@ -240,7 +240,7 @@ export const Contact: React.FC = () => {
                         value={formData.email}
                         onChange={handleChange}
                         placeholder="nombre@ejemplo.com"
-                        className="w-full px-4 py-3.5 bg-slate-50/60 border border-slate-200 rounded-xs text-sm text-[#15202B] focus:outline-hidden focus:border-[#063B68] focus:bg-white transition-colors"
+                        className="w-full px-4 py-3.5 bg-slate-50/60 border border-slate-200 rounded-xs text-sm text-[#15202B] focus:outline-hidden focus:border-[#103B5E] focus:bg-white transition-colors"
                       />
                     </div>
 
@@ -256,7 +256,7 @@ export const Contact: React.FC = () => {
                         value={formData.phone}
                         onChange={handleChange}
                         placeholder="+54 11 ..."
-                        className="w-full px-4 py-3.5 bg-slate-50/60 border border-slate-200 rounded-xs text-sm text-[#15202B] focus:outline-hidden focus:border-[#063B68] focus:bg-white transition-colors"
+                        className="w-full px-4 py-3.5 bg-slate-50/60 border border-slate-200 rounded-xs text-sm text-[#15202B] focus:outline-hidden focus:border-[#103B5E] focus:bg-white transition-colors"
                       />
                     </div>
                   </div>
@@ -274,7 +274,7 @@ export const Contact: React.FC = () => {
                       value={formData.message}
                       onChange={handleChange}
                       placeholder="Contanos brevemente sobre tus objetivos o inquietudes en seguros o inversiones..."
-                      className="w-full px-4 py-3.5 bg-slate-50/60 border border-slate-200 rounded-xs text-sm text-[#15202B] focus:outline-hidden focus:border-[#063B68] focus:bg-white transition-colors resize-y"
+                      className="w-full px-4 py-3.5 bg-slate-50/60 border border-slate-200 rounded-xs text-sm text-[#15202B] focus:outline-hidden focus:border-[#103B5E] focus:bg-white transition-colors resize-y"
                     />
                   </div>
 
@@ -289,7 +289,7 @@ export const Contact: React.FC = () => {
                     <button
                       type="submit"
                       disabled={isSubmitting}
-                      className="w-full sm:w-auto px-9 py-4 bg-[#063B68] text-white text-xs sm:text-sm font-semibold tracking-wider uppercase rounded-xs hover:bg-[#042644] transition-colors focus:outline-hidden focus:ring-2 focus:ring-[#063B68] focus:ring-offset-2 cursor-pointer disabled:opacity-60"
+                      className="w-full sm:w-auto px-9 py-4 bg-[#103B5E] text-white text-xs sm:text-sm font-semibold tracking-wider uppercase rounded-xs hover:bg-[#0b2b45] transition-colors focus:outline-hidden focus:ring-2 focus:ring-[#103B5E] focus:ring-offset-2 cursor-pointer disabled:opacity-60"
                     >
                       {isSubmitting ? 'Enviando...' : 'Enviar consulta'}
                     </button>

@@ -29,7 +29,7 @@ export const Segments: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         {/* Section Header */}
         <div className="max-w-3xl mb-16 sm:mb-20">
-          <span className="text-xs sm:text-sm font-semibold tracking-[0.24em] text-[#063B68] uppercase block mb-4">
+          <span className="text-xs sm:text-sm font-semibold tracking-[0.24em] text-[#103B5E] uppercase block mb-4">
             Áreas de Especialización
           </span>
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-normal leading-[1.2] text-[#15202B] tracking-tight">
@@ -43,8 +43,8 @@ export const Segments: React.FC = () => {
           <div className="flex flex-col justify-between pt-4 lg:pr-8">
             <div>
               <div className="flex items-center gap-3 mb-4">
-                <span className="w-2 h-2 rounded-full bg-[#063B68]" />
-                <span className="text-xs uppercase tracking-widest text-[#063B68] font-bold">
+                <span className="w-2 h-2 rounded-full bg-[#103B5E]" />
+                <span className="text-xs uppercase tracking-widest text-[#103B5E] font-bold">
                   Enfoque Particular
                 </span>
               </div>
@@ -59,7 +59,7 @@ export const Segments: React.FC = () => {
               <div className="space-y-6 divide-y divide-slate-100">
                 {personalItems.map((item, idx) => (
                   <div key={idx} className="pt-5 first:pt-0 group">
-                    <h4 className="text-base font-semibold text-[#15202B] group-hover:text-[#063B68] transition-colors flex items-center justify-between">
+                    <h4 className="text-base font-semibold text-[#15202B] group-hover:text-[#103B5E] transition-colors flex items-center justify-between">
                       <span>{item.title}</span>
                     </h4>
                     <p className="text-xs sm:text-sm text-[#687481] font-light mt-1 leading-relaxed">
@@ -74,7 +74,7 @@ export const Segments: React.FC = () => {
               <button
                 type="button"
                 onClick={scrollToContact}
-                className="inline-flex items-center gap-2 text-xs uppercase tracking-widest font-semibold text-[#063B68] hover:text-[#042644] transition-colors py-2 border-b border-[#063B68]/30 hover:border-[#063B68] cursor-pointer"
+                className="inline-flex items-center gap-2 text-xs uppercase tracking-widest font-semibold text-[#103B5E] hover:text-[#0b2b45] transition-colors py-2 border-b border-[#103B5E]/30 hover:border-[#103B5E] cursor-pointer"
               >
                 <span>Planificar para mi familia</span>
                 <ArrowUpRight className="w-4 h-4" />
@@ -86,8 +86,8 @@ export const Segments: React.FC = () => {
           <div className="flex flex-col justify-between pt-4 lg:pl-8 lg:border-l lg:border-slate-200">
             <div>
               <div className="flex items-center gap-3 mb-4">
-                <span className="w-2 h-2 rounded-full bg-[#063B68]" />
-                <span className="text-xs uppercase tracking-widest text-[#063B68] font-bold">
+                <span className="w-2 h-2 rounded-full bg-[#103B5E]" />
+                <span className="text-xs uppercase tracking-widest text-[#103B5E] font-bold">
                   Enfoque Corporativo
                 </span>
               </div>
@@ -102,7 +102,7 @@ export const Segments: React.FC = () => {
               <div className="space-y-6 divide-y divide-slate-100">
                 {corporateItems.map((item, idx) => (
                   <div key={idx} className="pt-5 first:pt-0 group">
-                    <h4 className="text-base font-semibold text-[#15202B] group-hover:text-[#063B68] transition-colors flex items-center justify-between">
+                    <h4 className="text-base font-semibold text-[#15202B] group-hover:text-[#103B5E] transition-colors flex items-center justify-between">
                       <span>{item.title}</span>
                     </h4>
                     <p className="text-xs sm:text-sm text-[#687481] font-light mt-1 leading-relaxed">
@@ -117,7 +117,7 @@ export const Segments: React.FC = () => {
               <button
                 type="button"
                 onClick={scrollToContact}
-                className="inline-flex items-center gap-2 text-xs uppercase tracking-widest font-semibold text-[#063B68] hover:text-[#042644] transition-colors py-2 border-b border-[#063B68]/30 hover:border-[#063B68] cursor-pointer"
+                className="inline-flex items-center gap-2 text-xs uppercase tracking-widest font-semibold text-[#103B5E] hover:text-[#0b2b45] transition-colors py-2 border-b border-[#103B5E]/30 hover:border-[#103B5E] cursor-pointer"
               >
                 <span>Asesoramiento para mi empresa</span>
                 <ArrowUpRight className="w-4 h-4" />
